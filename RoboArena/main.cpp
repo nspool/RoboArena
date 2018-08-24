@@ -6,16 +6,13 @@
 //  Copyright © 2018 nspool. All rights reserved.
 //
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_timer.h>
+#include <SDL.h>
+#include <SDL_image.h>
+#include <SDL_timer.h>
 
 int WINDOW_WIDTH = 640;
 int WINDOW_HEIGHT = 480;
 
-// FIXME: Ugly hack workaround to fix the undefined reference to `WinMain' error on Windows
-#ifdef main
-# undef main
-#endif
 int main(int argc, char** argv)
 {
     if(SDL_Init(SDL_INIT_TIMER|SDL_INIT_VIDEO) < 0 )

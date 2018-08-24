@@ -6,7 +6,7 @@
 //  Copyright © 2017 nspool. All rights reserved.
 //
 
-#include <SDL2_image/SDL_image.h>
+#include <SDL_image.h>
 
 #include "player.hpp"
 

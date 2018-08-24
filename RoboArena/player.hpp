@@ -9,7 +9,7 @@
 #ifndef player_hpp
 #define player_hpp
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #endif /* player_hpp */
 
